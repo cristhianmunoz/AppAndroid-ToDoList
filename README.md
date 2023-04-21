@@ -1,2 +1,2 @@
-# EjercicioAppWeb-Desaf-oT-cnico
+# EjercicioAppWeb-DesafíoTécnico
 Desafío Técnico Bayteq
