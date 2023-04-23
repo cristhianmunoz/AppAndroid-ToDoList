@@ -28,6 +28,11 @@ class DashboardFragment : Fragment() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: ElementsAdapter
 
+
+    private var _binding: FragmentNetworkBinding? = null
+    private val binding get() = _binding!!
+
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -51,5 +56,10 @@ class DashboardFragment : Fragment() {
         }
 
         return view
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 }
