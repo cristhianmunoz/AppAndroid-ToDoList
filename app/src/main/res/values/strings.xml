@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TODO</string>
+    <string name="title_home">Local</string>
+    <string name="title_dashboard">Network</string>
+
+<!--    Se define las variables de consulta para los elementos de https://jsonplaceholder.typicode.com/todos-->
+    <string name="textViewTitle">Title</string>
+    <string name="textViewStatus">Status</string>
+
+
+</resources>
