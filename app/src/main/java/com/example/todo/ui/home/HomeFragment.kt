@@ -45,7 +45,7 @@ class HomeFragment : Fragment() {
         GlobalScope.launch(Dispatchers.Main) {
             try {
                 val datos = mutableListOf<Tasks>()
-                val task1 = Tasks("Terminar deber","true","1. Temrinar la parte primera")
+                val task1 = Tasks("Terminar deber","true","1. Teminar la parte primera")
                 val task2 = Tasks("leer libro","false","Haga pasar no se así")
                 val task3 = Tasks("Preparar lasagña","true","1. Temrinar la parte primera")
                 val task4 = Tasks("Estudiar Koltin","false","Haga pasar no se así")
