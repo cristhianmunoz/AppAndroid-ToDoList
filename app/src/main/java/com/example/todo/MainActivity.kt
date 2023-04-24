@@ -1,5 +1,6 @@
 package com.example.todo
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
@@ -31,5 +32,10 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+        binding.bottomCreate.setOnClickListener(){
+            val intent = Intent(this, EditTaskActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
